@@ -1,192 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Devika Dinesh E | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Devika Dinesh E | Portfolio</title>
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
 
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #071a2f;
-            color: #ffffff;
-            line-height: 1.6;
-        }
+body {
+    background: #0a192f;
+    color: #ccd6f6;
+}
 
-        section {
-            padding: 60px 20px;
-            max-width: 1000px;
-            margin: auto;
-        }
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #020c1b;
+    position: sticky;
+    top: 0;
+}
 
-        h1, h2 {
-            color: #4ef0c0;
-        }
+nav h2 {
+    color: #64ffda;
+}
 
-        h2 {
-            border-bottom: 2px solid #4ef0c0;
-            display: inline-block;
-            margin-bottom: 20px;
-        }
+nav a {
+    color: #ccd6f6;
+    margin-left: 20px;
+    text-decoration: none;
+}
 
-        /* HERO */
-        .hero {
-            text-align: center;
-            padding: 100px 20px;
-        }
+nav a:hover {
+    color: #64ffda;
+}
 
-        .hero h1 {
-            font-size: 48px;
-        }
+/* HERO */
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+}
 
-        .hero p {
-            margin-top: 10px;
-        }
+.hero h1 {
+    font-size: 60px;
+    color: #64ffda;
+}
 
-        /* CARDS */
-        .card {
-            background: #0c2a4a;
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 10px;
-        }
+.hero p {
+    font-size: 20px;
+    margin-top: 10px;
+}
 
-        /* SKILLS */
-        .skills span {
-            display: inline-block;
-            background: #4ef0c0;
-            color: #000;
-            padding: 5px 10px;
-            margin: 5px;
-            border-radius: 5px;
-            font-size: 14px;
-        }
+/* SECTION */
+section {
+    padding: 80px;
+}
 
-        /* CONTACT */
-        .contact a {
-            color: #4ef0c0;
-            text-decoration: none;
-        }
+h2 {
+    color: #64ffda;
+    margin-bottom: 20px;
+}
 
-    </style>
+/* ABOUT */
+.about p {
+    max-width: 800px;
+    line-height: 1.8;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* CARD */
+.card {
+    background: #112240;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 12px;
+    background: #64ffda;
+    color: #000;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* CONTACT */
+.contact a {
+    color: #64ffda;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020c1b;
+}
+</style>
 
 </head>
 <body>
 
-    <!-- HERO -->
-    <section class="hero">
-        <h1>Devika Dinesh E</h1>
-        <p>M.Tech VLSI & Embedded Systems</p>
-        <p>STM32 | PCB Design | IoT | Real-Time Systems</p>
-    </section>
+<!-- NAVBAR -->
+<nav>
+    <h2>Devika</h2>
+    <div>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
 
-    <!-- ABOUT -->
-    <section>
-        <h2>About</h2>
-        <p>
-            M.Tech candidate specializing in VLSI and Embedded Systems with a keen interest in real-time applications, PCB design, and hardware-software co-development. Proficient in microcontroller programming, signal conditioning, and system-level circuit design for creating efficient electronic solutions. Driven to apply technical expertise and innovation in developing advanced embedded and VLSI projects.
-        </p>
-    </section>
+<!-- HERO -->
+<div class="hero">
+    <h1>Devika Dinesh E</h1>
+    <p>M.Tech | VLSI & Embedded Systems</p>
+    <p>STM32 • PCB Design • IoT • Real-Time Systems</p>
+</div>
 
-    <!-- EDUCATION -->
-    <section>
-        <h2>Education</h2>
+<!-- ABOUT -->
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+        M.Tech candidate specializing in VLSI and Embedded Systems with a keen interest in real-time applications, PCB design, and hardware-software co-development. Proficient in microcontroller programming, signal conditioning, and system-level circuit design for creating efficient electronic solutions. Driven to apply technical expertise and innovation in developing advanced embedded and VLSI projects.
+    </p>
+</section>
 
-        <div class="card">
-            <h3>M.Tech – VLSI and Embedded Systems</h3>
-            <p>Mar Athanasius College of Engineering (2024–2026)</p>
-            <p>CGPA: 8.07</p>
-        </div>
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
 
-        <div class="card">
-            <h3>B.Tech – Electronics and Communication</h3>
-            <p>Vimal Jyothi Engineering College (2020–2024)</p>
-            <p>CGPA: 8.59</p>
-        </div>
-
-    </section>
-
-    <!-- SKILLS -->
-    <section>
-        <h2>Skills</h2>
-
-        <div class="skills">
-            <span>Embedded C</span>
-            <span>Verilog</span>
-            <span>C Programming</span>
-            <span>STM32</span>
-            <span>Altium Designer</span>
-            <span>Proteus</span>
-            <span>LTspice</span>
-            <span>Arduino IDE</span>
-            <span>SPI</span>
-            <span>UART</span>
-            <span>I2C</span>
-        </div>
-
-    </section>
-
-    <!-- EXPERIENCE -->
-    <section>
-        <h2>Experience</h2>
+    <div class="grid">
 
         <div class="card">
-            <h3>Embedded Systems Internship</h3>
-            <p>CSEED – June 2025</p>
-            <p>
-                Worked on STM32 interfacing with sensors, Bluetooth, Wi-Fi, and NodeMCU communication. Gained exposure to RTOS and real-time scheduling.
-            </p>
-        </div>
-
-    </section>
-
-    <!-- PROJECTS -->
-    <section>
-        <h2>Projects</h2>
-
-        <div class="card">
-            <h3>Solar Panel Emulator (STM32)</h3>
-            <p>
-                Designed a real-time solar panel emulator with PCB integrating STM32, converters, and sensors for renewable energy applications.
-            </p>
+            <h3>Solar Panel Emulator</h3>
+            <p>STM32-based real-time solar panel emulator with PCB integrating converters and sensors.</p>
         </div>
 
         <div class="card">
-            <h3>IoT Temperature Monitoring System</h3>
-            <p>
-                Developed PCB using STM32 + ESP8266 for real-time cloud-based temperature monitoring.
-            </p>
+            <h3>IoT Temperature System</h3>
+            <p>STM32 + ESP8266 based temperature monitoring system with cloud connectivity.</p>
         </div>
 
         <div class="card">
-            <h3>Railway Track Inspecting Robot</h3>
-            <p>
-                IoT-based robot to detect track cracks and provide location data via Android app.
-            </p>
+            <h3>Railway Track Robot</h3>
+            <p>IoT robot to detect cracks and send location data via mobile app.</p>
         </div>
 
         <div class="card">
-            <h3>Heart Pulse Monitoring System</h3>
-            <p>
-                Built a pulse monitoring system with BPM display and alert system with optional IoT logging.
-            </p>
+            <h3>Heart Pulse Monitor</h3>
+            <p>Real-time BPM monitoring system with alerts and IoT logging.</p>
         </div>
 
-    </section>
+    </div>
+</section>
 
-    <!-- CONTACT -->
-    <section class="contact">
-        <h2>Contact</h2>
-        <p>📞 +91 8089166527</p>
-        <p>📧 devikadineshe8@gmail.com</p>
-        <p>🔗 <a href="#">LinkedIn Profile</a></p>
-    </section>
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <span>Embedded C</span>
+        <span>Verilog</span>
+        <span>STM32</span>
+        <span>Altium Designer</span>
+        <span>Proteus</span>
+        <span>LTspice</span>
+        <span>Arduino</span>
+        <span>SPI</span>
+        <span>UART</span>
+        <span>I2C</span>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>📞 +91 8089166527</p>
+    <p>📧 devikadineshe8@gmail.com</p>
+    <p>🔗 LinkedIn (add your link)</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Devika Dinesh E</p>
+</footer>
 
 </body>
 </html>
