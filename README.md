@@ -1,214 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Devika Dinesh E | Portfolio</title>
+<h1 align="center">Devika Dinesh E</h1>
 
-<style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
-}
+<p align="center">
+  M.Tech | VLSI & Embedded Systems  
+</p>
 
-body {
-    background: #0a192f;
-    color: #ccd6f6;
-}
+<p align="center">
+  <b>STM32 | PCB Design | IoT | Real-Time Systems</b>
+</p>
 
-/* NAVBAR */
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 50px;
-    background: #020c1b;
-    position: sticky;
-    top: 0;
-}
+---
 
-nav h2 {
-    color: #64ffda;
-}
+## 👩‍💻 About Me
 
-nav a {
-    color: #ccd6f6;
-    margin-left: 20px;
-    text-decoration: none;
-}
+I am Devika Dinesh E, an M.Tech student specializing in VLSI and Embedded Systems with a strong interest in real-time applications, PCB design, and hardware-software co-development.
 
-nav a:hover {
-    color: #64ffda;
-}
+I am passionate about designing and developing embedded systems using microcontrollers like STM32, and I enjoy working on system-level circuit design and IoT-based solutions.
 
-/* HERO */
-.hero {
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 80px;
-}
+I am continuously improving my knowledge in areas such as embedded programming, signal conditioning, PCB design, and digital electronics.
 
-.hero h1 {
-    font-size: 60px;
-    color: #64ffda;
-}
+I am eager to apply my skills and contribute to innovative engineering solutions in the field of Embedded Systems and VLSI.
 
-.hero p {
-    font-size: 20px;
-    margin-top: 10px;
-}
+---
 
-/* SECTION */
-section {
-    padding: 80px;
-}
+## 🎓 Education
 
-h2 {
-    color: #64ffda;
-    margin-bottom: 20px;
-}
+- **M.Tech – VLSI and Embedded Systems**  
+  Mar Athanasius College of Engineering (2024–2026)  
+  CGPA: 8.07  
 
-/* ABOUT */
-.about p {
-    max-width: 800px;
-    line-height: 1.8;
-}
+- **B.Tech – Electronics and Communication Engineering**  
+  Vimal Jyothi Engineering College (2020–2024)  
+  CGPA: 8.59  
 
-/* GRID */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
+---
 
-/* CARD */
-.card {
-    background: #112240;
-    padding: 20px;
-    border-radius: 10px;
-    transition: 0.3s;
-}
+## 🛠️ Skills
 
-.card:hover {
-    transform: translateY(-5px);
-}
+**Languages:**  
+Embedded C, C, Verilog  
 
-/* SKILLS */
-.skills span {
-    display: inline-block;
-    margin: 5px;
-    padding: 8px 12px;
-    background: #64ffda;
-    color: #000;
-    border-radius: 5px;
-    font-size: 14px;
-}
+**Tools:**  
+Altium Designer, Proteus, LTspice, STM32CubeIDE, Arduino IDE  
 
-/* CONTACT */
-.contact a {
-    color: #64ffda;
-    text-decoration: none;
-}
+**Protocols:**  
+SPI, UART, I2C  
 
-/* FOOTER */
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #020c1b;
-}
-</style>
+---
 
-</head>
-<body>
+## 💼 Experience
 
-<!-- NAVBAR -->
-<nav>
-    <h2>Devika</h2>
-    <div>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-    </div>
-</nav>
+**Embedded Systems Internship – CSEED (June 2025)**  
+- Worked with STM32 and sensor interfacing  
+- Implemented Bluetooth, Wi-Fi, and NodeMCU communication  
+- Learned RTOS concepts and real-time task scheduling  
 
-<!-- HERO -->
-<div class="hero">
-    <h1>Devika Dinesh E</h1>
-    <p>M.Tech | VLSI & Embedded Systems</p>
-    <p>STM32 • PCB Design • IoT • Real-Time Systems</p>
-</div>
+---
 
-<!-- ABOUT -->
-<section id="about" class="about">
-    <h2>About Me</h2>
-    <p>
-        M.Tech candidate specializing in VLSI and Embedded Systems with a keen interest in real-time applications, PCB design, and hardware-software co-development. Proficient in microcontroller programming, signal conditioning, and system-level circuit design for creating efficient electronic solutions. Driven to apply technical expertise and innovation in developing advanced embedded and VLSI projects.
-    </p>
-</section>
+## 🚀 Projects
 
-<!-- PROJECTS -->
-<section id="projects">
-    <h2>Projects</h2>
+### 🔹 Solar Panel Emulator (STM32)
+Designed a real-time solar panel emulator with a compact PCB integrating STM32, power converters, and sensors for renewable energy applications.
 
-    <div class="grid">
+### 🔹 IoT Temperature Monitoring System
+Developed a PCB-based system using STM32 and ESP8266 for real-time temperature monitoring and cloud connectivity.
 
-        <div class="card">
-            <h3>Solar Panel Emulator</h3>
-            <p>STM32-based real-time solar panel emulator with PCB integrating converters and sensors.</p>
-        </div>
+### 🔹 Railway Track Inspecting Robot
+Built an IoT-based robot to detect track cracks and send location data through a mobile application.
 
-        <div class="card">
-            <h3>IoT Temperature System</h3>
-            <p>STM32 + ESP8266 based temperature monitoring system with cloud connectivity.</p>
-        </div>
+### 🔹 Heart Pulse Monitoring System
+Designed a system to measure heart rate (BPM) with alert features and optional IoT-based remote monitoring.
 
-        <div class="card">
-            <h3>Railway Track Robot</h3>
-            <p>IoT robot to detect cracks and send location data via mobile app.</p>
-        </div>
+---
 
-        <div class="card">
-            <h3>Heart Pulse Monitor</h3>
-            <p>Real-time BPM monitoring system with alerts and IoT logging.</p>
-        </div>
+## 📜 Certifications
 
-    </div>
-</section>
+- Embedded Systems Certification – Alison  
+- Salesforce Certification – Cognizant  
+- Python for Data Science – Quest  
 
-<!-- SKILLS -->
-<section id="skills">
-    <h2>Skills</h2>
+---
 
-    <div class="skills">
-        <span>Embedded C</span>
-        <span>Verilog</span>
-        <span>STM32</span>
-        <span>Altium Designer</span>
-        <span>Proteus</span>
-        <span>LTspice</span>
-        <span>Arduino</span>
-        <span>SPI</span>
-        <span>UART</span>
-        <span>I2C</span>
-    </div>
-</section>
+## 📌 Areas of Interest
 
-<!-- CONTACT -->
-<section id="contact" class="contact">
-    <h2>Contact</h2>
-    <p>📞 +91 8089166527</p>
-    <p>📧 devikadineshe8@gmail.com</p>
-    <p>🔗 LinkedIn (add your link)</p>
-</section>
+- Embedded Systems Design  
+- IoT Applications  
+- PCB Design & Hardware Prototyping  
+- Power Electronics & Renewable Energy  
 
-<!-- FOOTER -->
-<footer>
-    <p>© 2026 Devika Dinesh E</p>
-</footer>
+---
 
-</body>
-</html>
+## 📫 Contact
+
+📞 +91 8089166527  
+📧 devikadineshe8@gmail.com  
+🔗 LinkedIn: *(Add your link here)*  
+
+---
+
+⭐ *Passionate about building real-world embedded solutions*
