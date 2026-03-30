@@ -6,79 +6,86 @@
 <title>Devika Dinesh E | Portfolio</title>
 
 <style>
+
+/* BODY */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #071a2f;
     color: white;
-    text-align: center;
 }
 
-/* CONTAINER */
+/* MAIN CONTAINER */
 .container {
-    max-width: 800px;
+    max-width: 750px;
     margin: auto;
-    padding: 50px 20px;
+    padding: 60px 20px;
 }
 
-/* NAME */
-h1 {
+/* HEADER */
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header h1 {
     color: #4ef0c0;
-    font-size: 40px;
+    font-size: 42px;
     margin-bottom: 10px;
 }
 
-/* SUBTITLE */
 .subtitle {
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
-/* TAGS */
 .tags {
     color: #b0c4de;
-    margin-bottom: 40px;
+    font-size: 16px;
 }
 
 /* SECTION */
 .section {
     margin-top: 50px;
-    text-align: left;
 }
 
 /* SECTION TITLE */
 .section h2 {
     color: #4ef0c0;
+    font-size: 24px;
     border-bottom: 2px solid #4ef0c0;
     display: inline-block;
     padding-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 /* TEXT */
-p {
+.section p {
     line-height: 1.7;
+    text-align: justify;
 }
 
-/* LIST */
-ul {
-    padding-left: 20px;
-}
-
-/* CARD STYLE */
+/* CARD */
 .card {
-    background: #0c2a4a;
+    background-color: #0c2a4a;
     padding: 15px;
     border-radius: 8px;
     margin-top: 15px;
 }
 
-/* LINKS */
+/* LIST */
+ul {
+    padding-left: 18px;
+}
+
+/* CONTACT */
 a {
     color: #4ef0c0;
     text-decoration: none;
 }
 
 </style>
+
 </head>
 
 <body>
@@ -86,15 +93,17 @@ a {
 <div class="container">
 
     <!-- HEADER -->
-    <h1>Devika Dinesh E</h1>
-    <p class="subtitle">M.Tech | VLSI & Embedded Systems</p>
-    <p class="tags">STM32 | PCB Design | IoT | Real-Time Systems</p>
+    <div class="header">
+        <h1>Devika Dinesh E</h1>
+        <p class="subtitle">M.Tech | VLSI & Embedded Systems</p>
+        <p class="tags">STM32 | PCB Design | IoT | Real-Time Systems</p>
+    </div>
 
     <!-- ABOUT -->
     <div class="section">
         <h2>About</h2>
         <p>
-            I am Devika Dinesh E, an M.Tech student specializing in VLSI and Embedded Systems with a strong interest in electronics and hardware design. I am passionate about developing embedded systems, working with microcontrollers, and designing efficient circuits. I enjoy exploring how hardware and software integrate to build real-world solutions. I am continuously improving my skills in STM32, PCB design, and digital electronics, and I am eager to contribute to innovative engineering applications.
+            I am Devika Dinesh E, an M.Tech student specializing in VLSI and Embedded Systems with a strong interest in electronics and hardware design. I am passionate about learning and developing skills in embedded systems, microcontrollers, and circuit design. I enjoy exploring how hardware and software work together to build efficient systems. I am continuously improving my knowledge in STM32 microcontrollers, PCB design, and digital electronics. I am eager to grow in the field of VLSI and Embedded Systems and contribute to real-world engineering solutions.
         </p>
     </div>
 
@@ -109,7 +118,7 @@ a {
         </div>
 
         <div class="card">
-            <b>B.Tech – Electronics and Communication</b><br>
+            <b>B.Tech – Electronics and Communication Engineering</b><br>
             Vimal Jyothi Engineering College (2020–2024)<br>
             CGPA: 8.59
         </div>
@@ -123,6 +132,18 @@ a {
         </p>
     </div>
 
+    <!-- EXPERIENCE -->
+    <div class="section">
+        <h2>Experience</h2>
+
+        <div class="card">
+            <b>Embedded Systems Internship – CSEED (June 2025)</b>
+            <p>
+                Worked on STM32 interfacing with sensors, Bluetooth, Wi-Fi, and NodeMCU communication. Gained exposure to RTOS concepts and real-time scheduling.
+            </p>
+        </div>
+    </div>
+
     <!-- PROJECTS -->
     <div class="section">
         <h2>Projects</h2>
@@ -133,17 +154,17 @@ a {
         </div>
 
         <div class="card">
-            <b>IoT Temperature Monitoring</b>
-            <p>STM32 + ESP8266 system for real-time cloud-based monitoring.</p>
+            <b>IoT Temperature Monitoring System</b>
+            <p>STM32 + ESP8266 based real-time monitoring system.</p>
         </div>
 
         <div class="card">
-            <b>Railway Track Robot</b>
-            <p>IoT-based robot for crack detection and location tracking.</p>
+            <b>Railway Track Inspecting Robot</b>
+            <p>IoT-based system to detect track cracks and send location data.</p>
         </div>
 
         <div class="card">
-            <b>Heart Pulse Monitor</b>
+            <b>Heart Pulse Monitoring System</b>
             <p>Real-time BPM monitoring with alerts and IoT logging.</p>
         </div>
     </div>
