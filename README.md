@@ -64,25 +64,34 @@
             font-size: 16px;
             text-align: justify;
         }
+
+        /* OPTIONAL HOVER EFFECT */
+        .hero h1:hover {
+            color: #00ffaa;
+            transition: 0.3s;
+        }
     </style>
 
 </head>
 <body>
 
-    <!-- HERO SECTION -->
+    <!-- HERO -->
     <section class="hero">
         <h1>Anulakshmi C</h1>
         <p class="subtitle">Embedded Systems & PCB Design Engineer</p>
         <p class="tags">STM32 | IoT | Real-Time Systems</p>
     </section>
 
-    <!-- ABOUT SECTION -->
+    <!-- ABOUT -->
     <section class="about">
         <h2>About</h2>
         <p>
             M.Tech candidate specializing in VLSI and Embedded Systems with a keen interest in real-time applications, PCB design, and hardware-software co-development. Proficient in microcontroller programming, signal conditioning, and system-level circuit design for creating efficient electronic solutions. Driven to apply technical expertise and innovation in developing advanced embedded and VLSI projects.
         </p>
     </section>
+
+</body>
+</html>
 
 </body>
 </html># DEVIKA
