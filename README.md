@@ -1,94 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anulakshmi C | Portfolio</title>
+<h1 align="center">DEVIKA DINESH E</h1>
 
-    <style>
-        /* RESET */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<p align="center">
+  Embedded Systems & PCB Design Engineer  
+</p>
 
-        /* BODY */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #071a2f;
-            color: #ffffff;
-        }
+<p align="center">
+  <b>STM32 | IoT | Real-Time Systems</b>
+ 
 
-        /* HERO SECTION */
-        .hero {
-            text-align: center;
-            padding: 100px 20px;
-        }
-
-        .hero h1 {
-            font-size: 48px;
-            color: #4ef0c0;
-            margin-bottom: 15px;
-        }
-
-        .subtitle {
-            font-size: 18px;
-            margin-bottom: 10px;
-        }
-
-        .tags {
-            font-size: 16px;
-            color: #b0c4de;
-        }
-
-        /* ABOUT SECTION */
-        .about {
-            max-width: 900px;
-            margin: 80px auto;
-            padding: 20px;
-        }
-
-        .about h2 {
-            color: #4ef0c0;
-            font-size: 26px;
-            margin-bottom: 10px;
-            border-bottom: 2px solid #4ef0c0;
-            display: inline-block;
-            padding-bottom: 5px;
-        }
-
-        .about p {
-            margin-top: 20px;
-            line-height: 1.7;
-            font-size: 16px;
-            text-align: justify;
-        }
-
-        /* OPTIONAL HOVER EFFECT */
-        .hero h1:hover {
-            color: #00ffaa;
-            transition: 0.3s;
-        }
-    </style>
-
-</head>
-<body>
-
-    <!-- HERO -->
-    <section class="hero">
-        <h1>Anulakshmi C</h1>
-        <p class="subtitle">Embedded Systems & PCB Design Engineer</p>
-        <p class="tags">STM32 | IoT | Real-Time Systems</p>
-    </section>
-
-    <!-- ABOUT -->
-    <section class="about">
-        <h2>About</h2>
-        <p>
-            M.Tech candidate specializing in VLSI and Embedded Systems with a keen interest in real-time applications, PCB design, and hardware-software co-development. Proficient in microcontroller programming, signal conditioning, and system-level circuit design for creating efficient electronic solutions. Driven to apply technical expertise and innovation in developing advanced embedded and VLSI projects.
-        </p>
-    </section>
-
-</body>
+I am Anamika PV, an M.Tech student specializing in VLSI and Embedded Systems with a strong interest in electronics and hardware design.I am passionate about learning and developing skills in embedded systems, microcontrollers, and circuit design. I enjoy exploring how hardware and software work together to build efficient systems. I am continuously improving my knowledge in areas such as STM32 microcontrollers, PCB design, and digital electronics.I am eager to grow in the field of VLSI and Embedded Systems and contribute to real-world engineering solutions.</body>
 </html>
